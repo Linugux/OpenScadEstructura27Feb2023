@@ -64,11 +64,11 @@ module casa (){
 			translate([670,2,2]) 
 			%cube([10,280,120]); 
 			
-			//for(x=[0:25:200]){ 
-				//color([1,1,1]) 
-				//translate([550,260-x,x+2])
-				//%cube([120,20,20]); 
-				//} 
+			for(x=[0:25:200]){ 
+				color([1,1,1]) 
+				translate([550,260-x,x+2])
+				%cube([120,20,20]); 
+				} 
 				
 				//Outdoor Behia 
 				translate([190,80,2]) 
